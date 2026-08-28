@@ -1,0 +1,25 @@
+{
+	"name": "nuaaline",
+	"version": "1.0.0",
+	"description": "A Power Line Extraciton WebGL Viewer",
+	"author": "NUAA",
+	"license":  "MIT License",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"build": "electron-builder"
+	},
+	"keywords": [
+		"Power Line Extraction",
+		"Potree",
+		"point cloud viewer"
+	],
+	"build": {
+		"appId": "nuaaline",
+		"win": {
+			"target": "dir",
+			"icon": "./build/icon.ico"
+		}
+	},
+	"files": ["main.js"]
+}
